@@ -7,6 +7,7 @@ const Nav = () => (
         <Link to="/" className={navStyles.link} activeClassName={navStyles.active__link}>Home</Link>
         <Link to="/page-2" className={navStyles.link} activeClassName={navStyles.active__link}>Page-2</Link>
         <Link to="/page-3" className={navStyles.link} activeClassName={navStyles.active__link}>Page With Cow!</Link>
+        <Link to="/page-4" className={navStyles.link} activeClassName={navStyles.active__link}>Slider!</Link>
     </div>
 )
 
